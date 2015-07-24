@@ -13,7 +13,6 @@
 		CCA29B041B60C5A600AEA72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA29B021B60C5A600AEA72A /* Main.storyboard */; };
 		CCA29B061B60C5A600AEA72A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA29B051B60C5A600AEA72A /* Images.xcassets */; };
 		CCA29B091B60C5A600AEA72A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA29B071B60C5A600AEA72A /* LaunchScreen.xib */; };
-		CCA29B151B60C5A600AEA72A /* ____TableView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29B141B60C5A600AEA72A /* ____TableView__Tests.m */; };
 		CCA29B231B60D77300AEA72A /* AutoLayoutWithTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29B221B60D77300AEA72A /* AutoLayoutWithTextViewController.m */; };
 		CCA29B261B60D79000AEA72A /* ManualLayoutWithLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29B251B60D79000AEA72A /* ManualLayoutWithLabelController.m */; };
 		CCA29B291B60D7A800AEA72A /* ManualLayoutWithTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29B281B60D7A800AEA72A /* ManualLayoutWithTextViewController.m */; };
@@ -23,20 +22,15 @@
 		CCA29B391B60E81900AEA72A /* icon_cell.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA29B381B60E81900AEA72A /* icon_cell.png */; };
 		CCA29B3D1B60E85200AEA72A /* C2.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29B3B1B60E85200AEA72A /* C2.m */; };
 		CCA29B3E1B60E85200AEA72A /* C2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA29B3C1B60E85200AEA72A /* C2.xib */; };
+		CCEE2AC61B61D46D002436F8 /* C3.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AC41B61D46D002436F8 /* C3.m */; };
+		CCEE2AC71B61D46D002436F8 /* C3.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEE2AC51B61D46D002436F8 /* C3.xib */; };
+		CCEE2ACA1B61D51F002436F8 /* NSString+Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AC91B61D51F002436F8 /* NSString+Kit.m */; };
+		CCEE2AD41B61D8F2002436F8 /* C4.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AD21B61D8F2002436F8 /* C4.m */; };
+		CCEE2AD51B61D8F2002436F8 /* C4.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEE2AD31B61D8F2002436F8 /* C4.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CCA29B0F1B60C5A600AEA72A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CCA29AED1B60C5A600AEA72A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCA29AF41B60C5A600AEA72A;
-			remoteInfo = "动态计算TableView高度";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		CCA29AF51B60C5A600AEA72A /* 动态计算TableView高度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动态计算TableView高度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA29AF51B60C5A600AEA72A /* 计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA29AF91B60C5A600AEA72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA29AFA1B60C5A600AEA72A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCA29AFC1B60C5A600AEA72A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,7 +40,6 @@
 		CCA29B031B60C5A600AEA72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCA29B051B60C5A600AEA72A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CCA29B081B60C5A600AEA72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CCA29B0E1B60C5A600AEA72A /* 动态计算TableView高度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动态计算TableView高度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA29B131B60C5A600AEA72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA29B141B60C5A600AEA72A /* ____TableView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____TableView__Tests.m"; sourceTree = "<group>"; };
 		CCA29B211B60D77300AEA72A /* AutoLayoutWithTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutWithTextViewController.h; sourceTree = "<group>"; };
@@ -64,17 +57,18 @@
 		CCA29B3A1B60E85200AEA72A /* C2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C2.h; sourceTree = "<group>"; };
 		CCA29B3B1B60E85200AEA72A /* C2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C2.m; sourceTree = "<group>"; };
 		CCA29B3C1B60E85200AEA72A /* C2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C2.xib; sourceTree = "<group>"; };
+		CCEE2AC31B61D46D002436F8 /* C3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C3.h; sourceTree = "<group>"; };
+		CCEE2AC41B61D46D002436F8 /* C3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C3.m; sourceTree = "<group>"; };
+		CCEE2AC51B61D46D002436F8 /* C3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C3.xib; sourceTree = "<group>"; };
+		CCEE2AC81B61D51F002436F8 /* NSString+Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Kit.h"; sourceTree = "<group>"; };
+		CCEE2AC91B61D51F002436F8 /* NSString+Kit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Kit.m"; sourceTree = "<group>"; };
+		CCEE2AD11B61D8F2002436F8 /* C4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4.h; sourceTree = "<group>"; };
+		CCEE2AD21B61D8F2002436F8 /* C4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4.m; sourceTree = "<group>"; };
+		CCEE2AD31B61D8F2002436F8 /* C4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C4.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CCA29AF21B60C5A600AEA72A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA29B0B1B60C5A600AEA72A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,8 +90,7 @@
 		CCA29AF61B60C5A600AEA72A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCA29AF51B60C5A600AEA72A /* 动态计算TableView高度.app */,
-				CCA29B0E1B60C5A600AEA72A /* 动态计算TableView高度Tests.xctest */,
+				CCA29AF51B60C5A600AEA72A /* 计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +108,8 @@
 				CCA29B051B60C5A600AEA72A /* Images.xcassets */,
 				CCA29B071B60C5A600AEA72A /* LaunchScreen.xib */,
 				CCA29AF81B60C5A600AEA72A /* Supporting Files */,
+				CCEE2AC81B61D51F002436F8 /* NSString+Kit.h */,
+				CCEE2AC91B61D51F002436F8 /* NSString+Kit.m */,
 			);
 			path = "动态计算TableView高度";
 			sourceTree = "<group>";
@@ -185,6 +180,9 @@
 			children = (
 				CCA29B241B60D79000AEA72A /* ManualLayoutWithLabelController.h */,
 				CCA29B251B60D79000AEA72A /* ManualLayoutWithLabelController.m */,
+				CCEE2AC31B61D46D002436F8 /* C3.h */,
+				CCEE2AC41B61D46D002436F8 /* C3.m */,
+				CCEE2AC51B61D46D002436F8 /* C3.xib */,
 			);
 			name = ManualLayoutWithLabelController;
 			sourceTree = "<group>";
@@ -194,6 +192,9 @@
 			children = (
 				CCA29B271B60D7A800AEA72A /* ManualLayoutWithTextViewController.h */,
 				CCA29B281B60D7A800AEA72A /* ManualLayoutWithTextViewController.m */,
+				CCEE2AD11B61D8F2002436F8 /* C4.h */,
+				CCEE2AD21B61D8F2002436F8 /* C4.m */,
+				CCEE2AD31B61D8F2002436F8 /* C4.xib */,
 			);
 			name = ManualLayoutWithTextViewController;
 			sourceTree = "<group>";
@@ -201,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCA29AF41B60C5A600AEA72A /* 动态计算TableView高度 */ = {
+		CCA29AF41B60C5A600AEA72A /* 计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCA29B181B60C5A600AEA72A /* Build configuration list for PBXNativeTarget "动态计算TableView高度" */;
+			buildConfigurationList = CCA29B181B60C5A600AEA72A /* Build configuration list for PBXNativeTarget "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				CCA29AF11B60C5A600AEA72A /* Sources */,
 				CCA29AF21B60C5A600AEA72A /* Frameworks */,
@@ -213,28 +214,10 @@
 			);
 			dependencies = (
 			);
-			name = "动态计算TableView高度";
+			name = "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
 			productName = "动态计算TableView高度";
-			productReference = CCA29AF51B60C5A600AEA72A /* 动态计算TableView高度.app */;
+			productReference = CCA29AF51B60C5A600AEA72A /* 计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CCA29B0D1B60C5A600AEA72A /* 动态计算TableView高度Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCA29B1B1B60C5A600AEA72A /* Build configuration list for PBXNativeTarget "动态计算TableView高度Tests" */;
-			buildPhases = (
-				CCA29B0A1B60C5A600AEA72A /* Sources */,
-				CCA29B0B1B60C5A600AEA72A /* Frameworks */,
-				CCA29B0C1B60C5A600AEA72A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CCA29B101B60C5A600AEA72A /* PBXTargetDependency */,
-			);
-			name = "动态计算TableView高度Tests";
-			productName = "动态计算TableView高度Tests";
-			productReference = CCA29B0E1B60C5A600AEA72A /* 动态计算TableView高度Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -248,13 +231,9 @@
 					CCA29AF41B60C5A600AEA72A = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					CCA29B0D1B60C5A600AEA72A = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = CCA29AF41B60C5A600AEA72A;
-					};
 				};
 			};
-			buildConfigurationList = CCA29AF01B60C5A600AEA72A /* Build configuration list for PBXProject "动态计算TableView高度" */;
+			buildConfigurationList = CCA29AF01B60C5A600AEA72A /* Build configuration list for PBXProject "计算TableView高度" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -267,8 +246,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCA29AF41B60C5A600AEA72A /* 动态计算TableView高度 */,
-				CCA29B0D1B60C5A600AEA72A /* 动态计算TableView高度Tests */,
+				CCA29AF41B60C5A600AEA72A /* 计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename */,
 			);
 		};
 /* End PBXProject section */
@@ -284,13 +262,8 @@
 				CCA29B061B60C5A600AEA72A /* Images.xcassets in Resources */,
 				CCA29B3E1B60E85200AEA72A /* C2.xib in Resources */,
 				CCA29B351B60D88D00AEA72A /* C1TableViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCA29B0C1B60C5A600AEA72A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CCEE2AD51B61D8F2002436F8 /* C4.xib in Resources */,
+				CCEE2AC71B61D46D002436F8 /* C3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,29 +280,16 @@
 				CCA29B341B60D88D00AEA72A /* C1TableViewCell.m in Sources */,
 				CCA29AFE1B60C5A600AEA72A /* AppDelegate.m in Sources */,
 				CCA29B2C1B60D7CF00AEA72A /* AutoLayoutWithLabelController.m in Sources */,
+				CCEE2AD41B61D8F2002436F8 /* C4.m in Sources */,
+				CCEE2ACA1B61D51F002436F8 /* NSString+Kit.m in Sources */,
 				CCA29B261B60D79000AEA72A /* ManualLayoutWithLabelController.m in Sources */,
+				CCEE2AC61B61D46D002436F8 /* C3.m in Sources */,
 				CCA29AFB1B60C5A600AEA72A /* main.m in Sources */,
 				CCA29B3D1B60E85200AEA72A /* C2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCA29B0A1B60C5A600AEA72A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCA29B151B60C5A600AEA72A /* ____TableView__Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CCA29B101B60C5A600AEA72A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CCA29AF41B60C5A600AEA72A /* 动态计算TableView高度 */;
-			targetProxy = CCA29B0F1B60C5A600AEA72A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CCA29B021B60C5A600AEA72A /* Main.storyboard */ = {
@@ -437,7 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "动态计算TableView高度/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -447,48 +407,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "动态计算TableView高度/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CCA29B1C1B60C5A600AEA72A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "动态计算TableView高度Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/动态计算TableView高度.app/动态计算TableView高度";
-			};
-			name = Debug;
-		};
-		CCA29B1D1B60C5A600AEA72A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "动态计算TableView高度Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/动态计算TableView高度.app/动态计算TableView高度";
+				PRODUCT_NAME = "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCA29AF01B60C5A600AEA72A /* Build configuration list for PBXProject "动态计算TableView高度" */ = {
+		CCA29AF01B60C5A600AEA72A /* Build configuration list for PBXProject "计算TableView高度" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCA29B161B60C5A600AEA72A /* Debug */,
@@ -497,21 +423,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCA29B181B60C5A600AEA72A /* Build configuration list for PBXNativeTarget "动态计算TableView高度" */ = {
+		CCA29B181B60C5A600AEA72A /* Build configuration list for PBXNativeTarget "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCA29B191B60C5A600AEA72A /* Debug */,
 				CCA29B1A1B60C5A600AEA72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		CCA29B1B1B60C5A600AEA72A /* Build configuration list for PBXNativeTarget "动态计算TableView高度Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCA29B1C1B60C5A600AEA72A /* Debug */,
-				CCA29B1D1B60C5A600AEA72A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

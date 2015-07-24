@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCA29AF41B60C5A600AEA72A"
-               BuildableName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.app"
-               BlueprintName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;"
-               ReferencedContainer = "container:&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
+               BuildableName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+               BlueprintName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCA29B0D1B60C5A600AEA72A"
-               BuildableName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;Tests.xctest"
-               BlueprintName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;Tests"
-               ReferencedContainer = "container:&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
+               BuildableName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCA29B0D1B60C5A600AEA72A"
-               BuildableName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;Tests.xctest"
-               BlueprintName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;Tests"
-               ReferencedContainer = "container:&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
+               BuildableName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCA29AF41B60C5A600AEA72A"
-            BuildableName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.app"
-            BlueprintName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;"
-            ReferencedContainer = "container:&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
+            BuildableName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCA29AF41B60C5A600AEA72A"
-            BuildableName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.app"
-            BlueprintName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;"
-            ReferencedContainer = "container:&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
+            BuildableName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCA29AF41B60C5A600AEA72A"
-            BuildableName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.app"
-            BlueprintName = "&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;"
-            ReferencedContainer = "container:&#x52a8;&#x6001;&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
+            BuildableName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:&#x8ba1;&#x7b97;TableView&#x9ad8;&#x5ea6;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

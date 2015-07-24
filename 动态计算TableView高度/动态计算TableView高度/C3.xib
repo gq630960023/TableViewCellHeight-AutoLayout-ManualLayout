@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="C3" id="KGk-i7-Jjw" customClass="C3">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="22F-cG-9wH">
+                        <rect key="frame" x="0.0" y="0.0" width="44" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="22F-cG-9wH" secondAttribute="height" multiplier="44:43" id="VvT-1c-aHT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSa-zX-hqE">
+                        <rect key="frame" x="52" y="0.0" width="268" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cSa-zX-hqE" secondAttribute="trailing" id="4h1-zw-sp0"/>
+                    <constraint firstItem="cSa-zX-hqE" firstAttribute="leading" secondItem="22F-cG-9wH" secondAttribute="trailing" constant="8" id="dOR-mg-qxs"/>
+                    <constraint firstItem="22F-cG-9wH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iaE-YJ-J2t"/>
+                    <constraint firstAttribute="bottom" secondItem="cSa-zX-hqE" secondAttribute="bottom" id="o21-YV-Mvy"/>
+                    <constraint firstItem="22F-cG-9wH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="s6M-OZ-Nbf"/>
+                    <constraint firstAttribute="bottom" secondItem="22F-cG-9wH" secondAttribute="bottom" id="xV1-2x-pGH"/>
+                    <constraint firstItem="cSa-zX-hqE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yZ4-FF-P3s"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="i" destination="22F-cG-9wH" id="5hD-hH-A6h"/>
+                <outlet property="t" destination="cSa-zX-hqE" id="DAq-ve-dQI"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_cell.png" width="20" height="20"/>
+    </resources>
+</document>
