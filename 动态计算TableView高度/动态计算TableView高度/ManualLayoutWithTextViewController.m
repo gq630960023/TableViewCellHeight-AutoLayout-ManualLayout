@@ -15,7 +15,6 @@
 @property (nonatomic, strong) NSArray *tableData;//数据源
 @property (nonatomic, strong) UITableViewCell *prototypeCell;//保存计算Cell高度的实例变量
 
-
 @end
 
 @implementation ManualLayoutWithTextViewController

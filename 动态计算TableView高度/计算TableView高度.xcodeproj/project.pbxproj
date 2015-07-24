@@ -27,6 +27,9 @@
 		CCEE2ACA1B61D51F002436F8 /* NSString+Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AC91B61D51F002436F8 /* NSString+Kit.m */; };
 		CCEE2AD41B61D8F2002436F8 /* C4.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AD21B61D8F2002436F8 /* C4.m */; };
 		CCEE2AD51B61D8F2002436F8 /* C4.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEE2AD31B61D8F2002436F8 /* C4.xib */; };
+		CCEE2AD91B61EED7002436F8 /* AutoHeightWithTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AD81B61EED7002436F8 /* AutoHeightWithTextViewController.m */; };
+		CCEE2AE21B61EFD1002436F8 /* C5.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEE2AE01B61EFD1002436F8 /* C5.m */; };
+		CCEE2AE31B61EFD1002436F8 /* C5.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEE2AE11B61EFD1002436F8 /* C5.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,11 @@
 		CCEE2AD11B61D8F2002436F8 /* C4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4.h; sourceTree = "<group>"; };
 		CCEE2AD21B61D8F2002436F8 /* C4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4.m; sourceTree = "<group>"; };
 		CCEE2AD31B61D8F2002436F8 /* C4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C4.xib; sourceTree = "<group>"; };
+		CCEE2AD71B61EED7002436F8 /* AutoHeightWithTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHeightWithTextViewController.h; sourceTree = "<group>"; };
+		CCEE2AD81B61EED7002436F8 /* AutoHeightWithTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHeightWithTextViewController.m; sourceTree = "<group>"; };
+		CCEE2ADF1B61EFD1002436F8 /* C5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C5.h; sourceTree = "<group>"; };
+		CCEE2AE01B61EFD1002436F8 /* C5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C5.m; sourceTree = "<group>"; };
+		CCEE2AE11B61EFD1002436F8 /* C5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C5.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,7 @@
 				CCA29B2E1B60D82600AEA72A /* AutoLayoutWithTextViewController */,
 				CCA29B2F1B60D83900AEA72A /* ManualLayoutWithLabelController */,
 				CCA29B301B60D84400AEA72A /* ManualLayoutWithTextViewController */,
+				CCEE2AD61B61EC8D002436F8 /* AutoHeightWithTextViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -197,6 +206,18 @@
 				CCEE2AD31B61D8F2002436F8 /* C4.xib */,
 			);
 			name = ManualLayoutWithTextViewController;
+			sourceTree = "<group>";
+		};
+		CCEE2AD61B61EC8D002436F8 /* AutoHeightWithTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CCEE2AD71B61EED7002436F8 /* AutoHeightWithTextViewController.h */,
+				CCEE2AD81B61EED7002436F8 /* AutoHeightWithTextViewController.m */,
+				CCEE2ADF1B61EFD1002436F8 /* C5.h */,
+				CCEE2AE01B61EFD1002436F8 /* C5.m */,
+				CCEE2AE11B61EFD1002436F8 /* C5.xib */,
+			);
+			name = AutoHeightWithTextViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +284,7 @@
 				CCA29B3E1B60E85200AEA72A /* C2.xib in Resources */,
 				CCA29B351B60D88D00AEA72A /* C1TableViewCell.xib in Resources */,
 				CCEE2AD51B61D8F2002436F8 /* C4.xib in Resources */,
+				CCEE2AE31B61EFD1002436F8 /* C5.xib in Resources */,
 				CCEE2AC71B61D46D002436F8 /* C3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,9 +299,11 @@
 				CCA29B231B60D77300AEA72A /* AutoLayoutWithTextViewController.m in Sources */,
 				CCA29B291B60D7A800AEA72A /* ManualLayoutWithTextViewController.m in Sources */,
 				CCA29B011B60C5A600AEA72A /* ViewController.m in Sources */,
+				CCEE2AD91B61EED7002436F8 /* AutoHeightWithTextViewController.m in Sources */,
 				CCA29B341B60D88D00AEA72A /* C1TableViewCell.m in Sources */,
 				CCA29AFE1B60C5A600AEA72A /* AppDelegate.m in Sources */,
 				CCA29B2C1B60D7CF00AEA72A /* AutoLayoutWithLabelController.m in Sources */,
+				CCEE2AE21B61EFD1002436F8 /* C5.m in Sources */,
 				CCEE2AD41B61D8F2002436F8 /* C4.m in Sources */,
 				CCEE2ACA1B61D51F002436F8 /* NSString+Kit.m in Sources */,
 				CCA29B261B60D79000AEA72A /* ManualLayoutWithLabelController.m in Sources */,
