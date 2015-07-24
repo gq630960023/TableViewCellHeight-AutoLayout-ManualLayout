@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="C1TableViewCell" rowHeight="57" id="KGk-i7-Jjw" customClass="C1TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_cell.png" translatesAutoresizingMaskIntoConstraints="NO" id="c6V-fe-PAz">
+                        <rect key="frame" x="0.0" y="0.0" width="39" height="39.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56" id="Hks-Ew-fKo"/>
+                            <constraint firstAttribute="width" secondItem="c6V-fe-PAz" secondAttribute="height" multiplier="1:1" id="qep-9u-Klg"/>
+                            <constraint firstAttribute="width" secondItem="c6V-fe-PAz" secondAttribute="height" multiplier="1:1" id="wsW-RP-ohq"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Hks-Ew-fKo"/>
+                                <exclude reference="qep-9u-Klg"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="pFl-Zg-4CZ">
+                        <rect key="frame" x="47" y="0.0" width="273" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pFl-Zg-4CZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Dyr-l8-Mtu"/>
+                    <constraint firstAttribute="bottom" secondItem="c6V-fe-PAz" secondAttribute="bottom" id="HYI-sK-Ofd"/>
+                    <constraint firstAttribute="bottom" secondItem="pFl-Zg-4CZ" secondAttribute="bottom" id="WWm-3G-dE0"/>
+                    <constraint firstItem="c6V-fe-PAz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sSh-np-fh7"/>
+                    <constraint firstItem="c6V-fe-PAz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wGu-Dh-pKh"/>
+                    <constraint firstAttribute="trailing" secondItem="pFl-Zg-4CZ" secondAttribute="trailing" id="xGg-QE-8t9"/>
+                    <constraint firstItem="pFl-Zg-4CZ" firstAttribute="leading" secondItem="c6V-fe-PAz" secondAttribute="trailing" constant="8" id="zxB-Yq-OlS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="i" destination="c6V-fe-PAz" id="gmi-pr-wlh"/>
+                <outlet property="t" destination="pFl-Zg-4CZ" id="8p2-bj-aec"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="314.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_cell.png" width="20" height="20"/>
+    </resources>
+</document>
