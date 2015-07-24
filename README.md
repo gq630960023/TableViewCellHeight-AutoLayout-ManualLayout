@@ -1,4 +1,5 @@
 # TableViewCellHeight-AutoLayout-ManualLayout
+
 在TableViewCell中, 经常使用 UILabel 与 UITextView 来存放cell中的文字, 而计算高度却经常产生问题. 
 
 本Demo实现了:
