@@ -9,4 +9,4 @@
 
 本Demo代码参考来源: http://www.cocoachina.com/industry/20140604/8668.html
 
-如有疑问, 欢迎添加QQ: 630960023 进行交流. (好友添加说明: Github-CellHeight)
+
