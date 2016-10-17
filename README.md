@@ -12,5 +12,5 @@
 
 ###参考
 ---
-*[动态计算UITableViewCell高度详解](http://www.cocoachina.com/industry/20140604/8668.html )
-*[iOS_小松哥 的简书](http://www.jianshu.com/p/64f0e1557562)
+* [动态计算UITableViewCell高度详解](http://www.cocoachina.com/industry/20140604/8668.html)
+* [iOS_小松哥 的简书](http://www.jianshu.com/p/64f0e1557562)
