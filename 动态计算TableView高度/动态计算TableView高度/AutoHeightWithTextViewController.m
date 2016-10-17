@@ -91,8 +91,7 @@
     
     self.tableData[indexPath.row] = textView.text;
 
-    
-    //TODO: 界面更新这里, 根据监听, 我发现更新内容实际是全部列表 . 感觉会比较耗性能.
+    //TODO: 界面更新这里, 根据监听, 我发现更新内容实际是全部列表 . 感觉会比较耗性能.如果cell的index确定,可直接更新单条cell.即:reloadRowsAtIndexPaths: withRowAnimation: NS_AVAILABLE_IOS(3_0);
     [self.tableView beginUpdates];
     [self.tableView endUpdates];
     
