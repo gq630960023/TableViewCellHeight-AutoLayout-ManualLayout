@@ -8,7 +8,13 @@
 
 *2.对TextView输入内容即时更新Cell高度.
 
+正在实现内容:
 
-本Demo代码参考来源: http://www.cocoachina.com/industry/20140604/8668.html
+*3.iOS8 EstimatedHeightForRow
+
+
+本Demo代码参考来源: 
+*1.http://www.cocoachina.com/industry/20140604/8668.html
+*2.http://www.jianshu.com/p/64f0e1557562
 
 
