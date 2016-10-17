@@ -22,9 +22,9 @@
         expectedLabelSize = [self boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
     }
     else {
-        expectedLabelSize = [self sizeWithFont:font
-                             constrainedToSize:size
-                                 lineBreakMode:NSLineBreakByWordWrapping];
+
+
+        expectedLabelSize = [self boundingRectWithSize:size options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes: @{NSFontAttributeName: font} context:nil].size;
     }
     
     return CGSizeMake(ceil(expectedLabelSize.width), ceil(expectedLabelSize.height));

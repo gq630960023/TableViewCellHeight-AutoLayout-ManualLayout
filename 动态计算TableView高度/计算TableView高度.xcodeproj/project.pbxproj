@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342C99391DB45DD30067B631 /* EstimatedHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C99381DB45DD30067B631 /* EstimatedHeightViewController.m */; };
+		342C993D1DB45F870067B631 /* C6.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C993B1DB45F870067B631 /* C6.m */; };
+		342C993E1DB45F870067B631 /* C6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342C993C1DB45F870067B631 /* C6.xib */; };
 		CCA29AFB1B60C5A600AEA72A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29AFA1B60C5A600AEA72A /* main.m */; };
 		CCA29AFE1B60C5A600AEA72A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29AFD1B60C5A600AEA72A /* AppDelegate.m */; };
 		CCA29B011B60C5A600AEA72A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA29B001B60C5A600AEA72A /* ViewController.m */; };
@@ -33,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342C99371DB45DD30067B631 /* EstimatedHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstimatedHeightViewController.h; sourceTree = "<group>"; };
+		342C99381DB45DD30067B631 /* EstimatedHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstimatedHeightViewController.m; sourceTree = "<group>"; };
+		342C993A1DB45F870067B631 /* C6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C6.h; sourceTree = "<group>"; };
+		342C993B1DB45F870067B631 /* C6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C6.m; sourceTree = "<group>"; };
+		342C993C1DB45F870067B631 /* C6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C6.xib; sourceTree = "<group>"; };
 		CCA29AF51B60C5A600AEA72A /* 计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计算TableView高度.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA29AF91B60C5A600AEA72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA29AFA1B60C5A600AEA72A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342C99361DB45D6D0067B631 /* EstimatedHeightController */ = {
+			isa = PBXGroup;
+			children = (
+				342C99371DB45DD30067B631 /* EstimatedHeightViewController.h */,
+				342C99381DB45DD30067B631 /* EstimatedHeightViewController.m */,
+				342C993A1DB45F870067B631 /* C6.h */,
+				342C993B1DB45F870067B631 /* C6.m */,
+				342C993C1DB45F870067B631 /* C6.xib */,
+			);
+			name = EstimatedHeightController;
+			sourceTree = "<group>";
+		};
 		CCA29AEC1B60C5A600AEA72A = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +171,7 @@
 		CCA29B201B60D73B00AEA72A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				342C99361DB45D6D0067B631 /* EstimatedHeightController */,
 				CCA29B2D1B60D81B00AEA72A /* AutoLayoutWithLabelController */,
 				CCA29B2E1B60D82600AEA72A /* AutoLayoutWithTextViewController */,
 				CCA29B2F1B60D83900AEA72A /* ManualLayoutWithLabelController */,
@@ -277,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342C993E1DB45F870067B631 /* C6.xib in Resources */,
 				CCA29B391B60E81900AEA72A /* icon_cell.png in Resources */,
 				CCA29B041B60C5A600AEA72A /* Main.storyboard in Resources */,
 				CCA29B091B60C5A600AEA72A /* LaunchScreen.xib in Resources */,
@@ -301,8 +323,10 @@
 				CCA29B011B60C5A600AEA72A /* ViewController.m in Sources */,
 				CCEE2AD91B61EED7002436F8 /* AutoHeightWithTextViewController.m in Sources */,
 				CCA29B341B60D88D00AEA72A /* C1TableViewCell.m in Sources */,
+				342C99391DB45DD30067B631 /* EstimatedHeightViewController.m in Sources */,
 				CCA29AFE1B60C5A600AEA72A /* AppDelegate.m in Sources */,
 				CCA29B2C1B60D7CF00AEA72A /* AutoLayoutWithLabelController.m in Sources */,
+				342C993D1DB45F870067B631 /* C6.m in Sources */,
 				CCEE2AE21B61EFD1002436F8 /* C5.m in Sources */,
 				CCEE2AD41B61D8F2002436F8 /* C4.m in Sources */,
 				CCEE2ACA1B61D51F002436F8 /* NSString+Kit.m in Sources */,

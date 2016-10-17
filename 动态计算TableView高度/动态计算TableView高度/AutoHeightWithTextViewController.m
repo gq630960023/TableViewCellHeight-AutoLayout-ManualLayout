@@ -1,6 +1,6 @@
 //
 //  AutoHeightWithTextViewController.m
-//  计算TableView高度
+//  实时计算TableView高度
 //
 //  Created by yingying on 15/7/24.
 //  Copyright (c) 2015年 yingying. All rights reserved.
