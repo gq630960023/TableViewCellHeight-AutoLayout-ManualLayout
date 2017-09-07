@@ -24,8 +24,16 @@
     UINib *cellNib = [UINib nibWithNibName:@"C6" bundle:nil];
     [self.tableView registerNib:cellNib forCellReuseIdentifier:@"C6"];
     
+//    self.tableView.estimatedRowHeight = 100;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+    
     //数据源内容填充
-    self.tableData = @[@"1\n2\n3\n4\n5\n6", @"123456789012345678901234567890", @"1\n2", @"1\n2\n3", @"1"];
+    self.tableData = @[@"1\n2\n3\n4\n5\n6",
+                       @"123456789012345678901234567890",
+                       @"1\n2",
+                       @"1\n2\n3",
+                       @"1",
+                       @"123456789012345678901234 56789012345 678901234567 8901 23456789012345678901234567890 123456789012345678901234567890123 456789 01234567890 1234567890123456789012 3456789012345678901234567890"];
 
 }
 

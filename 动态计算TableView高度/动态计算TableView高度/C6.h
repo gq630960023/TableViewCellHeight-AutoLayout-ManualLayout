@@ -11,6 +11,6 @@
 @interface C6 : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *i;
-@property (weak, nonatomic) IBOutlet UITextView *t;
+@property (weak, nonatomic) IBOutlet UILabel *t;
 
 @end
